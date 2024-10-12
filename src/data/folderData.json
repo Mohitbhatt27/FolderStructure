@@ -1,0 +1,66 @@
+{
+  "name": "RootFolder",
+  "type": "folder",
+  "contents": [
+    {
+      "name": "file1.txt",
+      "type": "file",
+      "size": "10KB"
+    },
+    {
+      "name": "Subfolder1",
+      "type": "folder",
+      "contents": [
+        {
+          "name": "file2.txt",
+          "type": "file",
+          "size": "20KB"
+        },
+        {
+          "name": "NestedSubfolder1",
+          "type": "folder",
+          "contents": [
+            {
+              "name": "file3.txt",
+              "type": "file",
+              "size": "30KB"
+            },
+            {
+              "name": "DeepNestedSubfolder",
+              "type": "folder",
+              "contents": [
+                {
+                  "name": "file4.txt",
+                  "type": "file",
+                  "size": "40KB"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subfolder2",
+      "type": "folder",
+      "contents": [
+        {
+          "name": "file5.txt",
+          "type": "file",
+          "size": "50KB"
+        },
+        {
+          "name": "NestedSubfolder2",
+          "type": "folder",
+          "contents": [
+            {
+              "name": "file6.txt",
+              "type": "file",
+              "size": "60KB"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
